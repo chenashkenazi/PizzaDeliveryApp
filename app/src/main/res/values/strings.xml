@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Pizza Delivery</string>
+    <string name="welcome_text_view">Welcome to Chen\'s Pizza!</string>
+    <string name="name_text_view">Full name:</string>
+    <string name="phone_text_view">Phone:</string>
+    <string name="street_text_view">Street:</string>
+    <string name="city_text_view">City:</string>
+    <string name="home_number_text_view">House number:</string>
+    <string name="size_text_view">Pizza size:</string>
+
+    <string-array name="sizes_array">
+        <item>@string/please_choose</item>
+        <item>@string/small_size</item>
+        <item>@string/medium_size</item>
+        <item>@string/large_size</item>
+    </string-array>
+
+    <string-array name="drinks_array">
+        <item>@string/please_choose</item>
+        <item>@string/cola_drink</item>
+        <item>@string/sprite_drink</item>
+        <item>@string/soda_drink</item>
+        <item>@string/water_drink</item>
+        <item>@string/fanta_drink</item>
+    </string-array>
+
+    <string name="size_small">Small</string>
+    <string name="apartment_text_view">Apartment:</string>
+    <string name="cheese_text_view">Cheese type:</string>
+    <string name="vegan_radio">Vegan</string>
+    <string name="not_vegan_radio">Not vegan</string>
+    <string name="extras_text_view">Toppings: (3₪ each)</string>
+    <string name="onion_checkbox">Onion</string>
+    <string name="tomato_checkbox">Tomato</string>
+    <string name="olives_checkbox">Olives</string>
+    <string name="mushrooms_checkbox">Mushrooms</string>
+    <string name="corn_checkbox">Corn</string>
+    <string name="pepperoni_checkbox">Pepperoni</string>
+    <string name="jalapeno_checkbox">Jalapeno</string>
+    <string name="total_text_view">Total:</string>
+    <string name="drinks_text_view">Number of drinks:</string>
+    <string name="drinks_btn">Show options</string>
+    <string name="cola_drink">Coca Cola</string>
+    <string name="sprite_drink">Sprite</string>
+    <string name="soda_drink">Soda</string>
+    <string name="water_drink">Water</string>
+    <string name="fanta_drink">Fanta</string>
+    <string name="done_btn">Done</string>
+    <string name="small_size">Small 20₪</string>
+    <string name="medium_size">Medium 25₪</string>
+    <string name="large_size">Large 30₪</string>
+    <string name="next_btn">Next</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="dear_text_view">Dear</string>
+    <string name="order_recived_text_biew">your order has successfully received!</string>
+    <string name="details_text_view">Your details:</string>
+    <string name="address_text_view">Address:</string>
+    <string name="order_details_text_view">Order details:</string>
+    <string name="on_pizza_text_view">Toppings:</string>
+    <string name="drinks_text_view2">Drinks:</string>
+    <string name="fill_your_details">Please fill your details:</string>
+    <string name="drinks_message">Please insert number of drinks</string>
+    <string name="please_choose">Choose</string>
+    <string name="fill_pizza">Please select your preferences:</string>
+    <string name="order_text_view">Your Order</string>
+    <string name="drinks_price_text_view">9₪ for each</string>
+    <string name="pizza_activity_name">Define your pizza</string>
+    <string name="finish_activity_name">We\'re Done</string>
+</resources>

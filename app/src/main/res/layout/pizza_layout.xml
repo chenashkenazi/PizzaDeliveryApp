@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_text_view"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/varela"
+        android:background="@color/colorBlue" 
+        android:textColor="#FFF"
+        android:paddingVertical="50dp"
+        android:paddingHorizontal="30dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/fill_pizza_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fill_pizza"
+            android:textSize="18sp"
+            android:fontFamily="@font/varela"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/size_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/size_text_view"
+            android:textSize="18sp"
+            android:fontFamily="@font/varela"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sizes_spinner"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cheese_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/cheese_text_view"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/varela"
+            />
+
+        <RadioGroup
+            android:id="@+id/cheese_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not_vegan_radio"
+                android:fontFamily="@font/varela"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vegan_radio"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/varela"
+                android:textSize="18sp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/extras_title_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/extras_text_view"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/varela"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/extras1_layout">
+
+
+        <CheckBox
+            android:id="@+id/mushrooms_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mushrooms_checkbox"
+            android:fontFamily="@font/varela"
+            android:textSize="15sp"/>
+
+        <CheckBox
+            android:id="@+id/olives_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/olives_checkbox"
+            android:fontFamily="@font/varela"
+            android:textSize="15sp"/>
+
+        <CheckBox
+            android:id="@+id/tomato_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tomato_checkbox"
+            android:fontFamily="@font/varela"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/extras2_layout">
+
+        <CheckBox
+            android:id="@+id/onion_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onion_checkbox"
+            android:fontFamily="@font/varela"
+            android:textSize="15sp"/>
+
+        <CheckBox
+            android:id="@+id/corn_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/corn_checkbox"
+            android:fontFamily="@font/varela"
+            android:textSize="15sp"/>
+
+        <CheckBox
+            android:id="@+id/pepperoni_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pepperoni_checkbox"
+            android:fontFamily="@font/varela"
+            android:textSize="15sp"/>
+
+        <CheckBox
+            android:id="@+id/jalapeno_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jalapeno_checkbox"
+            android:fontFamily="@font/varela"
+            android:textSize="15sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/drinks_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/drinks_text_view"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/varela"
+            />
+
+        <EditText
+            android:id="@+id/drinks_num"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:fontFamily="@font/varela"
+            />
+
+        <Button
+            android:id="@+id/drinks_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drinks_btn"
+            android:textAllCaps="false"
+            android:fontFamily="@font/varela"
+            android:textColor="#FFF"
+            android:background="@drawable/shape_selectior"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/message_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/drinks_price_text_view"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:fontFamily="@font/varela"
+            />
+
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none"
+        android:layout_marginHorizontal="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:orientation="horizontal"
+            android:id="@+id/spinners_layout">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/total_layout"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/total_text_view"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/varela"
+            />
+
+        <TextView
+            android:id="@+id/sum_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/varela"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        android:gravity="end|bottom"
+        android:id="@+id/finish_btn_layout">
+
+        <Button
+            android:id="@+id/done_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/done_btn"
+            android:textAllCaps="false"
+            android:fontFamily="@font/varela"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            android:background="@drawable/shape_selectior"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
